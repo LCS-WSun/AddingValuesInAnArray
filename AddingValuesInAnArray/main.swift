@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
 
+//An Array that adds up values
+
+let Numbers = [12, 15, 16, 18]
+
+var SumOfAllNumbers = 0
+
+for Numbers in Numbers {
+    SumOfAllNumbers += Numbers
+}
+
+print(SumOfAllNumbers)
+
+}
